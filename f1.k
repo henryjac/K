@@ -1,0 +1,12 @@
+fac:{*/1+!x}
+fac2:{*/1_!x+1}
+sumn:{+/1+!x}
+isatom:{~-1+#x}
+ismatrix:{~2>#^x}
+in:{#x>x?y}
+sort:{x[<x]}
+revsort:{|x[<x]}
+depth:{:[@x;0;1+|/depth'x]}
+prime:{&/x!/:2_!x}
+primes:{2_&{&/x!/:2_!x}'!R}
+`show
